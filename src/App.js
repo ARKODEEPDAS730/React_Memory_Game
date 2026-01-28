@@ -269,7 +269,7 @@ export default function MemoryInterferenceGame() {
       
       {/* HEADER */}
       <h1 style={{ color: '#333' }}>
-        {gameState === 'START' && level > 1 ? "Keep Going!" : "Visuospatial Memory Game"}
+        {gameState === 'START' && level > 1 ? "Keep Going!" : "Eidetic Memory Challenge"}
       </h1>
 
       {/* TIMER DISPLAY (Only visible during RECALL) */}
