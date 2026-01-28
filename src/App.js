@@ -114,7 +114,7 @@ export default function MemoryInterferenceGame() {
   const setupDistraction = (stepIndex, currentSeq) => {
     setGameState('DISTRACTION');
     
-    const shapeTypes = [0, 1, 2]; 
+    const shapeTypes = Number[0, 1, 2]; 
     const colors = ['red', 'blue', 'green'];
     
     const isSame = Math.random() < 0.5;
